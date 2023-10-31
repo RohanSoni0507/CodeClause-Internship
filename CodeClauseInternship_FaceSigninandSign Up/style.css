@@ -1,0 +1,65 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and center content */
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Style headers */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the camera container */
+.camera {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Style the video element */
+video {
+    max-width: 100%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the canvas element */
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+/* Style the signup and signin buttons */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Center the signup and signin buttons */
+#signup-button, #signin-button {
+    display: flex;
+    justify-content: center;
+}
